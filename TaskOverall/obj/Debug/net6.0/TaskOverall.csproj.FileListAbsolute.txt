@@ -1,0 +1,14 @@
+C:\Users\II Novbe\Desktop\TasksCode\TaskOverall\TaskOverall\obj\Debug\net6.0\TaskOverall.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II Novbe\Desktop\TasksCode\TaskOverall\TaskOverall\obj\Debug\net6.0\TaskOverall.AssemblyInfoInputs.cache
+C:\Users\II Novbe\Desktop\TasksCode\TaskOverall\TaskOverall\obj\Debug\net6.0\TaskOverall.AssemblyInfo.cs
+C:\Users\II Novbe\Desktop\TasksCode\TaskOverall\TaskOverall\obj\Debug\net6.0\TaskOverall.csproj.CoreCompileInputs.cache
+C:\Users\II Novbe\Desktop\TasksCode\TaskOverall\TaskOverall\bin\Debug\net6.0\TaskOverall.exe
+C:\Users\II Novbe\Desktop\TasksCode\TaskOverall\TaskOverall\bin\Debug\net6.0\TaskOverall.deps.json
+C:\Users\II Novbe\Desktop\TasksCode\TaskOverall\TaskOverall\bin\Debug\net6.0\TaskOverall.runtimeconfig.json
+C:\Users\II Novbe\Desktop\TasksCode\TaskOverall\TaskOverall\bin\Debug\net6.0\TaskOverall.dll
+C:\Users\II Novbe\Desktop\TasksCode\TaskOverall\TaskOverall\bin\Debug\net6.0\TaskOverall.pdb
+C:\Users\II Novbe\Desktop\TasksCode\TaskOverall\TaskOverall\obj\Debug\net6.0\TaskOverall.dll
+C:\Users\II Novbe\Desktop\TasksCode\TaskOverall\TaskOverall\obj\Debug\net6.0\refint\TaskOverall.dll
+C:\Users\II Novbe\Desktop\TasksCode\TaskOverall\TaskOverall\obj\Debug\net6.0\TaskOverall.pdb
+C:\Users\II Novbe\Desktop\TasksCode\TaskOverall\TaskOverall\obj\Debug\net6.0\TaskOverall.genruntimeconfig.cache
+C:\Users\II Novbe\Desktop\TasksCode\TaskOverall\TaskOverall\obj\Debug\net6.0\ref\TaskOverall.dll
