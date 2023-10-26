@@ -23,6 +23,9 @@ namespace TaskOverall.Models
             _id++;
             Id = _id;
         }
-
+        public override string ToString()
+        {
+            return $"{Title}\n {Description}";
+        }
     }
 }

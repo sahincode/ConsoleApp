@@ -56,13 +56,16 @@ namespace TaskOverall
                         AddBlog();
                         break;
                     case "2":
-                        AddBlog();
-                        break;
-                    case "3":
                         DeleteBlog();
                         break;
+                    case "3":
+                        DetailsBlog();
+                        break;
                     case "4":
-                        BlogController.GetAllBlogs();
+                       foreach(Blog blog in BlogController.GetAllBlogs())
+                        {
+                            Console.WriteLine(blog);
+                        }
                         break;
                     case "5":
                         FilterBlogs();
@@ -153,6 +156,20 @@ namespace TaskOverall
             BlogDatabase.Blogs.Add(blog);
 
         }
+        public static void DetailsBlog()
+        {
+            string strid;
+            int trueid;
+            do
+            {
+                Console.Write("Please enter id of Blog which you want to show details :");
+                strid = Console.ReadLine();
+
+            } while (!int.TryParse(strid, out trueid));
+          var blog=  BlogDatabase.Blogs.Find(blog=>blog.Id == trueid);
+            Console.WriteLine(blog.ToString());
+
+        }
         public static void DeleteBlog()
         {
             string strid;
@@ -170,7 +187,13 @@ namespace TaskOverall
         {
             Console.Write("Please enter blog info about blogs which you interest in :");
             string value = Console.ReadLine();
-            BlogController.GetBlogsByValue(value);
+            ///BlogController.GetBlogsByValue(value);
+            /// before this commit i only did not write the following :
+            foreach (Blog blog in BlogController.GetBlogsByValue(value))
+            {
+                Console.WriteLine(blog.ToString());
+                blog.ToString();
+            }
         }
     }
 }

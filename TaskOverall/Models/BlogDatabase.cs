@@ -8,7 +8,7 @@ namespace TaskOverall.Models
 {
     internal static class BlogDatabase
     {
-         public static List <Blog >Blogs  { get; set; }
+         public static List <Blog >Blogs  = new List <Blog > ();
          public static List<User> Users =new List<User> ();
     }
 }
