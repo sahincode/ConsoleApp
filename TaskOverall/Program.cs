@@ -160,14 +160,23 @@ namespace TaskOverall
         {
             string strid;
             int trueid;
+            Blog blog = null;
             do
             {
                 Console.Write("Please enter id of Blog which you want to show details :");
                 strid = Console.ReadLine();
 
             } while (!int.TryParse(strid, out trueid));
-          var blog=  BlogDatabase.Blogs.Find(blog=>blog.Id == trueid);
-            Console.WriteLine(blog.ToString());
+          if (BlogDatabase.Blogs.Count > 0)
+ {
+      blog = BlogDatabase.Blogs.Find(blog => blog.Id == trueid);
+     Console.WriteLine(blog.ToString());
+ }
+ else
+ {
+     Console.WriteLine("blog does not exist ");
+ }
+
 
         }
         public static void DeleteBlog()
